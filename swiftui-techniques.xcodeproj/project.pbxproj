@@ -13,6 +13,7 @@
 		012297C023CA81FF00A01A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012297BF23CA81FF00A01A64 /* Assets.xcassets */; };
 		012297C323CA81FF00A01A64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012297C223CA81FF00A01A64 /* Preview Assets.xcassets */; };
 		012297C623CA81FF00A01A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012297C423CA81FF00A01A64 /* LaunchScreen.storyboard */; };
+		012297CF23CA924000A01A64 /* FontSizeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012297CE23CA924000A01A64 /* FontSizeDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		012297C223CA81FF00A01A64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		012297C523CA81FF00A01A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		012297C723CA81FF00A01A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012297CE23CA924000A01A64 /* FontSizeDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizeDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		012297B823CA81EF00A01A64 /* swiftui-techniques */ = {
 			isa = PBXGroup;
 			children = (
+				012297CD23CA921F00A01A64 /* view-examples */,
 				012297B923CA81EF00A01A64 /* AppDelegate.swift */,
 				012297BB23CA81EF00A01A64 /* SceneDelegate.swift */,
 				012297BD23CA81EF00A01A64 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				012297C223CA81FF00A01A64 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		012297CD23CA921F00A01A64 /* view-examples */ = {
+			isa = PBXGroup;
+			children = (
+				012297CE23CA924000A01A64 /* FontSizeDemoView.swift */,
+			);
+			path = "view-examples";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 				012297BA23CA81EF00A01A64 /* AppDelegate.swift in Sources */,
 				012297BC23CA81EF00A01A64 /* SceneDelegate.swift in Sources */,
 				012297BE23CA81EF00A01A64 /* ContentView.swift in Sources */,
+				012297CF23CA924000A01A64 /* FontSizeDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
