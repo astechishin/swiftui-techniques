@@ -14,6 +14,8 @@
 		012297C323CA81FF00A01A64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012297C223CA81FF00A01A64 /* Preview Assets.xcassets */; };
 		012297C623CA81FF00A01A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012297C423CA81FF00A01A64 /* LaunchScreen.storyboard */; };
 		012297CF23CA924000A01A64 /* FontSizeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012297CE23CA924000A01A64 /* FontSizeDemoView.swift */; };
+		01C1E5F224009DB60049E7B6 /* ForEachStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C1E5F124009DB60049E7B6 /* ForEachStuff.swift */; };
+		01C1E5F42401C1A00049E7B6 /* NavigationViewExploration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C1E5F32401C1A00049E7B6 /* NavigationViewExploration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		012297C523CA81FF00A01A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		012297C723CA81FF00A01A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		012297CE23CA924000A01A64 /* FontSizeDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizeDemoView.swift; sourceTree = "<group>"; };
+		01C1E5F124009DB60049E7B6 /* ForEachStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachStuff.swift; sourceTree = "<group>"; };
+		01C1E5F32401C1A00049E7B6 /* NavigationViewExploration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewExploration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				012297CE23CA924000A01A64 /* FontSizeDemoView.swift */,
+				01C1E5F124009DB60049E7B6 /* ForEachStuff.swift */,
+				01C1E5F32401C1A00049E7B6 /* NavigationViewExploration.swift */,
 			);
 			path = "view-examples";
 			sourceTree = "<group>";
@@ -160,7 +166,9 @@
 				012297BA23CA81EF00A01A64 /* AppDelegate.swift in Sources */,
 				012297BC23CA81EF00A01A64 /* SceneDelegate.swift in Sources */,
 				012297BE23CA81EF00A01A64 /* ContentView.swift in Sources */,
+				01C1E5F42401C1A00049E7B6 /* NavigationViewExploration.swift in Sources */,
 				012297CF23CA924000A01A64 /* FontSizeDemoView.swift in Sources */,
+				01C1E5F224009DB60049E7B6 /* ForEachStuff.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
