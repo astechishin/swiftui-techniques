@@ -10,12 +10,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        Text("A view!")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        // Preview with different size classes
+        Group {
+            ContentView()
+                .environment(\.sizeCategory, .extraSmall)
+            
+            ContentView()
+            
+            ContentView()
+                .environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
+            
+            ContentView()
+                .environment(\.colorScheme, .dark)
+        }
     }
 }

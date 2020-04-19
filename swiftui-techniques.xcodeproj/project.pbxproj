@@ -16,6 +16,7 @@
 		012297CF23CA924000A01A64 /* FontSizeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012297CE23CA924000A01A64 /* FontSizeDemoView.swift */; };
 		01C1E5F224009DB60049E7B6 /* ForEachStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C1E5F124009DB60049E7B6 /* ForEachStuff.swift */; };
 		01C1E5F42401C1A00049E7B6 /* NavigationViewExploration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C1E5F32401C1A00049E7B6 /* NavigationViewExploration.swift */; };
+		01CD30C9244D180E00580874 /* DiffDevicePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CD30C8244D180E00580874 /* DiffDevicePreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		012297CE23CA924000A01A64 /* FontSizeDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizeDemoView.swift; sourceTree = "<group>"; };
 		01C1E5F124009DB60049E7B6 /* ForEachStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachStuff.swift; sourceTree = "<group>"; };
 		01C1E5F32401C1A00049E7B6 /* NavigationViewExploration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewExploration.swift; sourceTree = "<group>"; };
+		01CD30C8244D180E00580874 /* DiffDevicePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffDevicePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				012297CE23CA924000A01A64 /* FontSizeDemoView.swift */,
 				01C1E5F124009DB60049E7B6 /* ForEachStuff.swift */,
 				01C1E5F32401C1A00049E7B6 /* NavigationViewExploration.swift */,
+				01CD30C8244D180E00580874 /* DiffDevicePreview.swift */,
 			);
 			path = "view-examples";
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01CD30C9244D180E00580874 /* DiffDevicePreview.swift in Sources */,
 				012297BA23CA81EF00A01A64 /* AppDelegate.swift in Sources */,
 				012297BC23CA81EF00A01A64 /* SceneDelegate.swift in Sources */,
 				012297BE23CA81EF00A01A64 /* ContentView.swift in Sources */,
