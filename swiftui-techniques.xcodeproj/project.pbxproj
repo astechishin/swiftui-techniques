@@ -14,6 +14,12 @@
 		012297C323CA81FF00A01A64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012297C223CA81FF00A01A64 /* Preview Assets.xcassets */; };
 		012297C623CA81FF00A01A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012297C423CA81FF00A01A64 /* LaunchScreen.storyboard */; };
 		012297CF23CA924000A01A64 /* FontSizeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012297CE23CA924000A01A64 /* FontSizeDemoView.swift */; };
+		01872508246B427D00AA3545 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01872507246B427C00AA3545 /* CardView.swift */; };
+		0187250A246B987F00AA3545 /* CardDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01872509246B987F00AA3545 /* CardDragView.swift */; };
+		0187250C246B9D8800AA3545 /* CoverFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187250B246B9D8800AA3545 /* CoverFlowView.swift */; };
+		0187250E246BA07300AA3545 /* SlideOverMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187250D246BA07300AA3545 /* SlideOverMapView.swift */; };
+		01872510246BA22200AA3545 /* FancyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187250F246BA22100AA3545 /* FancyCardView.swift */; };
+		01872512246BA30600AA3545 /* BadgedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01872511246BA30600AA3545 /* BadgedTabView.swift */; };
 		01C1E5F224009DB60049E7B6 /* ForEachStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C1E5F124009DB60049E7B6 /* ForEachStuff.swift */; };
 		01C1E5F42401C1A00049E7B6 /* NavigationViewExploration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C1E5F32401C1A00049E7B6 /* NavigationViewExploration.swift */; };
 		01CD30C9244D180E00580874 /* DiffDevicePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CD30C8244D180E00580874 /* DiffDevicePreview.swift */; };
@@ -29,6 +35,12 @@
 		012297C523CA81FF00A01A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		012297C723CA81FF00A01A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		012297CE23CA924000A01A64 /* FontSizeDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizeDemoView.swift; sourceTree = "<group>"; };
+		01872507246B427C00AA3545 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		01872509246B987F00AA3545 /* CardDragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDragView.swift; sourceTree = "<group>"; };
+		0187250B246B9D8800AA3545 /* CoverFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowView.swift; sourceTree = "<group>"; };
+		0187250D246BA07300AA3545 /* SlideOverMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOverMapView.swift; sourceTree = "<group>"; };
+		0187250F246BA22100AA3545 /* FancyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyCardView.swift; sourceTree = "<group>"; };
+		01872511246BA30600AA3545 /* BadgedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgedTabView.swift; sourceTree = "<group>"; };
 		01C1E5F124009DB60049E7B6 /* ForEachStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachStuff.swift; sourceTree = "<group>"; };
 		01C1E5F32401C1A00049E7B6 /* NavigationViewExploration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewExploration.swift; sourceTree = "<group>"; };
 		01CD30C8244D180E00580874 /* DiffDevicePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffDevicePreview.swift; sourceTree = "<group>"; };
@@ -91,6 +103,12 @@
 				01C1E5F124009DB60049E7B6 /* ForEachStuff.swift */,
 				01C1E5F32401C1A00049E7B6 /* NavigationViewExploration.swift */,
 				01CD30C8244D180E00580874 /* DiffDevicePreview.swift */,
+				01872507246B427C00AA3545 /* CardView.swift */,
+				01872509246B987F00AA3545 /* CardDragView.swift */,
+				0187250B246B9D8800AA3545 /* CoverFlowView.swift */,
+				0187250D246BA07300AA3545 /* SlideOverMapView.swift */,
+				0187250F246BA22100AA3545 /* FancyCardView.swift */,
+				01872511246BA30600AA3545 /* BadgedTabView.swift */,
 			);
 			path = "view-examples";
 			sourceTree = "<group>";
@@ -166,12 +184,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0187250C246B9D8800AA3545 /* CoverFlowView.swift in Sources */,
 				01CD30C9244D180E00580874 /* DiffDevicePreview.swift in Sources */,
 				012297BA23CA81EF00A01A64 /* AppDelegate.swift in Sources */,
 				012297BC23CA81EF00A01A64 /* SceneDelegate.swift in Sources */,
 				012297BE23CA81EF00A01A64 /* ContentView.swift in Sources */,
+				0187250A246B987F00AA3545 /* CardDragView.swift in Sources */,
+				01872512246BA30600AA3545 /* BadgedTabView.swift in Sources */,
 				01C1E5F42401C1A00049E7B6 /* NavigationViewExploration.swift in Sources */,
+				0187250E246BA07300AA3545 /* SlideOverMapView.swift in Sources */,
+				01872510246BA22200AA3545 /* FancyCardView.swift in Sources */,
 				012297CF23CA924000A01A64 /* FontSizeDemoView.swift in Sources */,
+				01872508246B427D00AA3545 /* CardView.swift in Sources */,
 				01C1E5F224009DB60049E7B6 /* ForEachStuff.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
