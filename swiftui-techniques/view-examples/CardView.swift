@@ -15,19 +15,32 @@ struct CardView: View {
     var image: String
     
     var body: some View {
+        ZStack {
+            CardBackgroundView(minY: minY, maxY: maxY, image: image)
+            Text("Some text in a view\nOn two lines")
+                .font(.largeTitle)
+                .foregroundColor(Color.white)
+                .shadow(color: Color.blue, radius: 4, x: 1, y: 1)
+                .background(Color.gray.opacity(0.2))
+        }
+    }
+}
+
+struct CardBackgroundView: View {
+    var minY: CGFloat
+    var maxY: CGFloat
+    var image: String
+
+    var body: some View {
         VStack {
             Image(image).resizable()
+                .blur(radius: 3)
         }
-        .frame(maxWidth: .infinity)
-        .frame(height: 200)
-        .background(Color.black)
-        .cornerRadius(20)
-        .shadow(color: Color.black, radius: 20, x: 0, y: 10)
-        .scaleEffect(minY < 0 ? minY/1000+1 : 1, anchor: .bottom)
-        .scaleEffect(maxY > 812 ? -(maxY - 812) / 200 + 1 : 1, anchor: .top)
+//        .scaleEffect(minY < 0 ? minY/1000+1 : 1, anchor: .bottom)
+//        .scaleEffect(maxY > 812 ? -(maxY - 812) / 200 + 1 : 1, anchor: .top)
         .opacity(Double(minY / 300 + 1))
-        .opacity(Double(-(maxY - 812) / 300 + 1))
-        .offset(y: minY < 0 ? -minY : 0)
+//        .opacity(Double(-(maxY - 812) / 300 + 1))
+//        .offset(y: minY < 0 ? -minY : 0)
     }
 }
 
@@ -38,6 +51,9 @@ struct Card {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(minY: 3, maxY: 600, image: "temp")
+        VStack(spacing: 10) {
+            CardView(minY: 3, maxY: 600, image: "red-slash")
+            CardView(minY: 3, maxY: 300, image: "blue-angle")
+        }
     }
 }

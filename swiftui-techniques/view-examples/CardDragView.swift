@@ -14,8 +14,11 @@ struct CardDragView: View {
      var body: some View {
          VStack {
              GeometryReader { geo in
+                // LinearGradient(gradient: Gradient(colors: [.yellow, .red]),
+                // startPoint: .topLeading, endPoint: .bottomTrailing)
                  Rectangle()
-                     .fill(LinearGradient(gradient: Gradient(colors: [.yellow, .red]), startPoint: .topLeading, endPoint: .bottomTrailing))
+                     .fill(LinearGradient(gradient: Gradient(colors: [.yellow, .red]),
+                                          startPoint: .topLeading, endPoint: .bottomTrailing))
                      .frame(width: 300, height: 200)
                      .clipShape(RoundedRectangle(cornerRadius: 20))
                      .rotation3DEffect(.degrees(-Double(self.dragAmount.width) / 20), axis: (x: 0, y: 1, z: 0))
