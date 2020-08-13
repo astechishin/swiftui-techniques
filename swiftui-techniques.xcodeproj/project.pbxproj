@@ -23,6 +23,11 @@
 		01872512246BA30600AA3545 /* BadgedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01872511246BA30600AA3545 /* BadgedTabView.swift */; };
 		01BD419324AA42510067EBD2 /* NeumorphicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BD419224AA42510067EBD2 /* NeumorphicView.swift */; };
 		01BD419624AD2E480067EBD2 /* ShadowBlockUIStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BD419524AD2E480067EBD2 /* ShadowBlockUIStyle.swift */; };
+		01C1018324DF81270099A160 /* WiggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C1018224DF81270099A160 /* WiggleView.swift */; };
+		01C1018524E0B6090099A160 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C1018424E0B6090099A160 /* TableView.swift */; };
+		01C1018724E0DD410099A160 /* AlignmentGuidesTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C1018624E0DD410099A160 /* AlignmentGuidesTool.swift */; };
+		01C1018924E0E0FD0099A160 /* AlignmentImplicit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C1018824E0E0FC0099A160 /* AlignmentImplicit.swift */; };
+		01C1018B24E4AF060099A160 /* WorkingTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C1018A24E4AF060099A160 /* WorkingTabView.swift */; };
 		01C1E5F224009DB60049E7B6 /* ForEachStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C1E5F124009DB60049E7B6 /* ForEachStuff.swift */; };
 		01C1E5F42401C1A00049E7B6 /* NavigationViewExploration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C1E5F32401C1A00049E7B6 /* NavigationViewExploration.swift */; };
 		01C3758E247DA679001D0D3C /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C3758D247DA679001D0D3C /* BlurView.swift */; };
@@ -48,6 +53,11 @@
 		01872511246BA30600AA3545 /* BadgedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgedTabView.swift; sourceTree = "<group>"; };
 		01BD419224AA42510067EBD2 /* NeumorphicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicView.swift; sourceTree = "<group>"; };
 		01BD419524AD2E480067EBD2 /* ShadowBlockUIStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowBlockUIStyle.swift; sourceTree = "<group>"; };
+		01C1018224DF81270099A160 /* WiggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiggleView.swift; sourceTree = "<group>"; };
+		01C1018424E0B6090099A160 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		01C1018624E0DD410099A160 /* AlignmentGuidesTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuidesTool.swift; sourceTree = "<group>"; };
+		01C1018824E0E0FC0099A160 /* AlignmentImplicit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentImplicit.swift; sourceTree = "<group>"; };
+		01C1018A24E4AF060099A160 /* WorkingTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingTabView.swift; sourceTree = "<group>"; };
 		01C1E5F124009DB60049E7B6 /* ForEachStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachStuff.swift; sourceTree = "<group>"; };
 		01C1E5F32401C1A00049E7B6 /* NavigationViewExploration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewExploration.swift; sourceTree = "<group>"; };
 		01C3758D247DA679001D0D3C /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
@@ -121,6 +131,11 @@
 				01872511246BA30600AA3545 /* BadgedTabView.swift */,
 				0144D423247C60400091E0CE /* ActivitySpinnerView.swift */,
 				01BD419224AA42510067EBD2 /* NeumorphicView.swift */,
+				01C1018224DF81270099A160 /* WiggleView.swift */,
+				01C1018424E0B6090099A160 /* TableView.swift */,
+				01C1018624E0DD410099A160 /* AlignmentGuidesTool.swift */,
+				01C1018824E0E0FC0099A160 /* AlignmentImplicit.swift */,
+				01C1018A24E4AF060099A160 /* WorkingTabView.swift */,
 			);
 			path = "view-examples";
 			sourceTree = "<group>";
@@ -204,11 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C1018B24E4AF060099A160 /* WorkingTabView.swift in Sources */,
 				0187250C246B9D8800AA3545 /* CoverFlowView.swift in Sources */,
 				01CD30C9244D180E00580874 /* DiffDevicePreview.swift in Sources */,
 				01C3758E247DA679001D0D3C /* BlurView.swift in Sources */,
+				01C1018324DF81270099A160 /* WiggleView.swift in Sources */,
 				012297BA23CA81EF00A01A64 /* AppDelegate.swift in Sources */,
 				01BD419324AA42510067EBD2 /* NeumorphicView.swift in Sources */,
+				01C1018724E0DD410099A160 /* AlignmentGuidesTool.swift in Sources */,
 				012297BC23CA81EF00A01A64 /* SceneDelegate.swift in Sources */,
 				012297BE23CA81EF00A01A64 /* ContentView.swift in Sources */,
 				0187250A246B987F00AA3545 /* CardDragView.swift in Sources */,
@@ -220,7 +238,9 @@
 				01BD419624AD2E480067EBD2 /* ShadowBlockUIStyle.swift in Sources */,
 				01872508246B427D00AA3545 /* CardView.swift in Sources */,
 				01C1E5F224009DB60049E7B6 /* ForEachStuff.swift in Sources */,
+				01C1018924E0E0FD0099A160 /* AlignmentImplicit.swift in Sources */,
 				0144D424247C60400091E0CE /* ActivitySpinnerView.swift in Sources */,
+				01C1018524E0B6090099A160 /* TableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
